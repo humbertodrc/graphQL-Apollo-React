@@ -1,6 +1,6 @@
 import { gql } from '@apollo/client';
 
-const GET_CHARACTERS = gql`
+const GET_CHARCTERS = gql`
   query{
     characters{
       results{
@@ -12,4 +12,5 @@ const GET_CHARACTERS = gql`
     }
   }
 `
-export default GET_CHARACTERS;
+
+export default GET_CHARCTERS;
